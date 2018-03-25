@@ -1,0 +1,42 @@
+@import "~antd/dist/antd.css";
+
+.App {
+  text-align: center;
+}
+
+.App-header h1 {
+  color: whitesmoke;
+}
+
+.App-content {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.App-add-todo-input {
+  max-width: 300px;
+  margin-right: 5px;
+}
+
+.App-add-todo-button {
+}
+
+.App-todos {
+  background-color: white;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.App-todo {
+  /* position: relative; */
+}
+
+.App-todo-complete {
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+  position: absolute;
+  right: 24px;
+}
